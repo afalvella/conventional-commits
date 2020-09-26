@@ -1,6 +1,6 @@
 {
   "name": "conventional-commits",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "https://github.com/afalvella/conventional-commits.git",
   "author": "afalvella <alfa20@gmail.com>",
