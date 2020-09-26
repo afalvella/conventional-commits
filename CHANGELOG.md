@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/afalvella/conventional-commits/compare/v1.1.1...v1.1.2) (2020-09-26)
+
+
+### Bug Fixes
+
+* clean-up ([3be9e2c](https://github.com/afalvella/conventional-commits/commit/3be9e2cf8dc9d0216ab7a0b43e341b151b718c32))
+* package.json version ([9abe4b2](https://github.com/afalvella/conventional-commits/commit/9abe4b29d7e32cdd3e530b4d84f8ec4704deda79))
+
 ### [1.1.1](https://github.com/afalvella/conventional-commits/compare/v1.1.0...v1.1.1) (2020-09-26)
 
 
