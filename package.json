@@ -6,7 +6,7 @@
   "author": "afalvella <alfa20@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "release": "standard-version",
+    "release": "node release",
     "next-version": "node nextVersion"
   },
   "standard-version": {
