@@ -2,10 +2,11 @@
 
 ## Releases  
 
-### First release
+### Changelog
 
-- To generate your changelog for your first release, simply do:  
+- To generate your changelog before your first release, simply do:  
 `npm run release -- --first-release`
+- commit that change before your first release.
 
 ### Starting a new release
 
