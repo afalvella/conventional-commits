@@ -4,5 +4,27 @@
   "main": "index.js",
   "repository": "https://github.com/afalvella/conventional-commits.git",
   "author": "afalvella <alfa20@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version",
+    "next-version": "node nextVersion"
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "conventional-recommended-bump": "6.0.10",
+    "husky": "4.3.0",
+    "semver": "7.3.2",
+    "standard-version": "9.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
